@@ -90,7 +90,8 @@ aside {
 h3 {margin: 10px 0  10px;}
 
 .sideText {
-    width: 60%;
+    width: 75%;
+    margin-top: 10px;
 }
 
 
@@ -98,7 +99,7 @@ h3 {margin: 10px 0  10px;}
 
 footer {
     padding: 10px 0 10px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     color: #d8f5ff;

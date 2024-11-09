@@ -1,5 +1,5 @@
 var cssLink = document.querySelector('link[rel="stylesheet"]');
-var estilos = ["/Css/simples.css", "/Css/moderno.css", "/Css/profissional.css", ""];
+var estilos = ["styles/simples.css", "styles/moderno.css", "styles/profissional.css", ""];
 
 const simpleStyle = document.querySelectorAll('.simple');
 const modenrStyle = document.querySelectorAll('.modern');

@@ -10,6 +10,8 @@ body {
 
 a {
     cursor: pointer;
+    text-decoration: none;
+    color: #4a4ae6;
 }
 
 header {
