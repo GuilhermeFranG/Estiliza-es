@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    padding: 10px 20px 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    text-shadow: 1px 2px 2px #000;
+    font-weight: bolder;
+    font-size: 17px;
+}
+footer a {
+    color: #000;
+}

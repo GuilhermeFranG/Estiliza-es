@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+header {
+    background-color: #962a22;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    width: 100%;
+    padding: 60px 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.headText {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.menuitem {font-size: medium;}
+
+
+
+main {
+    margin: 50px;
+}
+
+h2 {
+    margin: 10px;
+    color: #962a22; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+.infostyle {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h3 {
+    margin: 10px;
+    color: #962a22; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+.sideText {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.option {
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+footer {
+    padding: 10px 0 10px;
+    margin-left: 25%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    width: 50%;
+    color: #d8f5ff;
+    text-align: center;
+    text-shadow: 1px 2px 2px darkred;
+    font-weight: bolder;
+    font-size: medium;
+    background-image: linear-gradient(to right, #962a22, #ff0000, #962a22);
+}
+footer a {
+    text-decoration: none;
+    color: #ffaa83;
+}
