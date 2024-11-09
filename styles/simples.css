@@ -99,7 +99,7 @@ h3 {margin: 10px 0  10px;}
 
 footer {
     padding: 10px 0 10px;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
     color: #d8f5ff;
@@ -112,4 +112,10 @@ footer {
 footer a {
     text-decoration: none;
     color: rgb(131, 224, 255);
+}
+
+@media screen and (max-width: 1400px) {
+    footer {
+        position: relative;
+    }
 }

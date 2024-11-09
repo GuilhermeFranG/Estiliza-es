@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="#" />
     <link rel="shortcut icon" href="styleCloud.png" type="image/x-icon" />
     <script src="script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
+    </style>
     <title>Teste de Estilizações</title>
 </head>
 
@@ -18,10 +21,11 @@
         <p class="headText">Use o menu para selecionar diferentes estilos</p>
         <nav>
             <ul id="menulist">
-                <li class="menuitem"><a href="#" class="simple">Simples</a></li>
-                <li class="menuitem"><a href="#" class="modern">Moderno</a></li>
-                <li class="menuitem"><a href="#" class="pro">Profissional</a></li>
-                <li class="menuitem"><a href="#" class="empty">Sem Estilos</a></li>
+                <li class="menuitem simple"><a href="#">Simples</a></li>
+                <li class="menuitem modern"><a href="#">Moderno</a></li>
+                <li class="menuitem pro"><a href="#">Profissional</a></li>
+                <li class="menuitem color"><a href="#">Colorido</a></li>
+                <li class="menuitem empty"><a href="#">Sem Estilos</a></li>
             </ul>
         </nav>
     </header>
@@ -34,13 +38,15 @@
                 Você pode alterar o layout desta página selecionando diferentes estilos no menu ou
                 selecionando um dos links abaixo:<br>
                 <a href="#" class="simple option">Simples</a>
-                <a href="#" class="modern  option">Moderno</a>
-                <a href="#" class="pro  option">Profissional</a>
+                <a href="#" class="modern option">Moderno</a>
+                <a href="#" class="pro option">Profissional</a>
+                <a href="#" class="color option">Colorido</a>
             </p>
             <h2>Sem Estilos</h2>
-            <p class="infostyle">Essa página usa elementos DIV para agrupar diferentes seções da página HTML. <br>
+            <p class="infostyle">Essa página usa elementos como, MAIN, ASIDE e HEADER para agrupar diferentes seções da
+                página HTML. <br>
                 Clique aqui para ver como a página se parece sem estilos:<br>
-                <a href="#" class="empty  option">Sem Estilos</a>
+                <a href="#" class="empty option">Sem Estilos</a>
             </p>
         </main>
 
@@ -64,8 +70,10 @@
     </div>
 
     <footer>
-        <p><a href="https://github.com/GuilhermeFranG" target="_blank">Gui_FranG</a> - Estilizações &copy; 2024 <br>
-            </a>Página inspirada em <a href="https://www.w3schools.com/css/demo_default.htm">W3schools</a></p>
+        <p><a data-text="Gui_FranG" class="ftLink" href="https://github.com/GuilhermeFranG"
+                target="_blank">Gui_FranG</a> - Estilizações &copy; 2024 <br>
+            </a>Página inspirada em <a data-text="W3schools" class="ftLink"
+                href="https://www.w3schools.com/css/demo_default.htm">W3schools</a></p>
     </footer>
 
 </body>
