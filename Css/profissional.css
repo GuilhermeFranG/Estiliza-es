@@ -6,26 +6,97 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 a {
     cursor: pointer;
 }
 
+header {
+    box-shadow: 1px 1px 1px 1px #000;
+    text-shadow: 1px 1px #ccc;
+    width: 100%;
+    text-align: center;
+    padding: 60px 50px;
+}
 
+h1 {
+    font-size: 40px;
+}
+
+.headText {
+    margin: 20px;
+    font-size: 20px;
+}
+
+#menulist {
+    list-style: none;
+}
+
+.menuitem {
+    margin: 10px;
+    font-size: x-large;
+}
+
+
+
+main {
+    margin: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 30px; 
+}
+
+aside {
+    margin: 50px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.infostyle {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 30px; 
+}
+
+.sideText {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.option {
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff008c;
+}
 
 
 footer {
+    background-color: #000;
     padding: 10px 20px 10px;
-    position: absolute;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
     bottom: 0;
-    right: 0;
     color: #fff;
     text-shadow: 1px 2px 2px #000;
     font-weight: bolder;
     font-size: 17px;
 }
 footer a {
-    color: #000;
+    color: #ff008c;
 }
